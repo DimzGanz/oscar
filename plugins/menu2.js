@@ -212,9 +212,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     throw e
   }
 }
-handler.help = ['menu2']
+handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu2|allmenu2|\?)$/i
+handler.command = /^(menu|allmenu|\?)$/i
 
 handler.exp = 3
 
