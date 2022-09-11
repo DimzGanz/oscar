@@ -7,10 +7,10 @@ let gopay = global.gopay
 let numberowner = global.numberowner
 let anu = `*––––––『 INFO CREATOR 』––––––*
 `
-  conn.send2ButtonImg(m.chat, fla + teks, anu,wm, 'Nomor creator', '.owner2', 'SosialMedia Creator', '.sosialmedia', m) 
+  conn.send2ButtonImg(m.chat, fla + teks, anu,wm, 'Nomor creator', '.owner', 'SosialMedia Creator', '.sosialmedia', m) 
 }
-handler.help = ['owner']
+handler.help = ['owner2']
 handler.tags = ['info']
-handler.command = /^(owner|creator)$/i
+handler.command = /^(owner2|creator2)$/i
 
 module.exports = handler
