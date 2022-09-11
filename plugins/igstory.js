@@ -120,7 +120,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 handler.help = ['igstory'].map(v => v + ' <username>')
 handler.tags = ['downloader']
 handler.command = /^(igs(tory)?)$/i
-handler.premium = true
+handler.limit = true
 handler.group = false
 
 module.exports = handler
