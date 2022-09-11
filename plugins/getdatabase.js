@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['getdatabase','getdb']
 handler.tags = ['owner']
-handler.command = /^(getdatabase)$/i
+handler.command = /^(getdatabase|getdb)$/i
 
 handler.owner = true
 

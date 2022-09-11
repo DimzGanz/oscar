@@ -22,9 +22,9 @@ handler.tags = ['internet']
 handler.command = /^googlef?$/i
 handler.owner = false
 handler.mods = false
-handler.premium = true
+handler.premium = false
 handler.group = false
-handler.limit = false
+handler.limit = true
 
 handler.admin = false
 handler.botAdmin = false
