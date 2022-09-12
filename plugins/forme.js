@@ -7,7 +7,7 @@ conn.sendMessage(m.chat, {
     index: 1,
     urlButton: {
       displayText: `For you ♡`,
-      url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+      url: 'https://youtu.be/HZX7MB_m13M'
     }
   }],
   footer: 'For You ❤️'
