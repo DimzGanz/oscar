@@ -1,55 +1,20 @@
-let handler = async (m, { conn, args }) => {
-
-let fs = require('fs')
-
- let ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net'
-
-  aki = m.quoted ? [m.quoted.sender] : m.mentionedJid
-
-  let users = aki.filter(u => !(u == ownerGroup || u.includes(conn.user.jid)))
-
-  wayy = '_*Asik Dapet Jatah Kick*_'
-
-  for (let i of users) {
-
-  wayy += ` @${i.split('@')[0]}`
-
-  }
-
-  conn.reply(m.chat, wayy, m, { contextInfo: { mentionedJid: users }})
-
-  for (let user of users) if (user.endsWith('@s.whatsapp.net')) await conn.groupParticipantsUpdate(m.chat, [user], "remove")
-
+let handler = async (m, { conn }) => {
+let who = m.mentionedJid[0] ? m.mentionedJid[0] : m.qouted ? m.quoted.sender : ''
+await conn.groupRemove(m.chat, [who || m.quoted.sender])
 }
-
-handler.help = ['kick'].map(v => v + ' @user')
-
-handler.tags = ['group']
-
-handler.command = /^(kick|\-)$/i
-
+handler.help = ['kick @tag atau reply chat']
+handler.tags = ['admin']
+handler.command = /^(kick|k|\-)$/i
 handler.owner = false
-
 handler.mods = false
-
 handler.premium = false
-
 handler.group = true
-
 handler.private = false
 
-
-
 handler.admin = true
-
 handler.botAdmin = true
 
-
-
 handler.fail = null
-
 handler.limit = false
-
-
 
 module.exports = handler
