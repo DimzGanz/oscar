@@ -1,4 +1,4 @@
-/*let handler = async (m, { conn, text, participants }) => {
+let handler = async (m, { conn, text, participants }) => {
   //let members = participants.filter(member => member.isAdmin).map(member => member.jid)
  // let member =  m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
  let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
@@ -16,11 +16,11 @@ handler.group = true
 handler.admin = true
 handler.botAdmin = true
 
-module.exports = handler*/
+module.exports = handler
 
 
 
-let handler = async (m, { conn, text, usedPrefix }) => {
+/*let handler = async (m, { conn, text, usedPrefix }) => {
 	function no(number){
     return number.replace(/\s/g,'').replace(/([@+-])/g,'')
   }

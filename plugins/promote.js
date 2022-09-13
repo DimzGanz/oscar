@@ -1,4 +1,4 @@
-/*let handler = async (m, { conn, participants }) => {
+let handler = async (m, { conn, participants }) => {
   let members = participants.filter(member => !member.isAdmin).map(member => member.jid)
   let users = m.mentionedJid.filter(user => members.includes(user))
   for (let user of users) await conn.groupParticipantsUpdate(m.chat, [user], "promote").catch(console.log)
@@ -14,11 +14,11 @@ handler.group = true
 handler.admin = true
 handler.botAdmin = true
 
-module.exports = handler*/
+module.exports = handler
 
 
 
-let handler = async (m, { conn, text, usedPrefix }) => {
+/*let handler = async (m, { conn, text, usedPrefix }) => {
 	function no(number){
     return number.replace(/\s/g,'').replace(/([@+-])/g,'')
   }
