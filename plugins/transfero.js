@@ -79,9 +79,9 @@ let handler = async (m, { conn, args, usedPrefix, owner }) => {
     }
 }
     
-handler.help = ['otransfer']
+handler.help = ['otransfer','otf']
 handler.tags = ['owner']
-handler.command = /^(otransfer)$/i
+handler.command = /^(otransfer|otf)$/i
 handler.owner = true
 handler.mods = false
 handler.premium = false
