@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => conn.send2ButtonLoc(m.chat, await (await fe
 ╔═══════════════════
 ║ _*DONASI UNTUK*_  Owner ×͜×
 ╠═══════════════════
-║          ❉ 〔 *𝗗𝗢𝗡𝗔𝗦𝗜* 〕 ❉
+║          ❉ 〔 *DONASI* 〕 ❉
 ║➸ *DANA* : 
 ║➸ 089696764138
 ║➸ *PULSA
@@ -17,7 +17,7 @@ let handler = async (m, { conn }) => conn.send2ButtonLoc(m.chat, await (await fe
 ╔════════════════════
 ║ *Donasi Via Ikuti Sosial media*
 ╠════════════════════
-║     ❉ 〔 𝐒𝐨𝐬𝐢𝐚𝐥 𝐌𝐞𝐝𝐢𝐚 𝐉𝐚𝐫𝐨𝐭 〕 ❉
+║     ❉ 〔 *Sosial Media Owner* 〕 ❉
 ║➸ *Instasgram*
 ║ http://www.instagram.com/dimzex
 ║➸ *Github*
