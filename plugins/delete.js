@@ -35,7 +35,7 @@ let handler = function (m) {
 }
 handler.help = ['delete']
 handler.tags = ['info']
-handler.command = /^(del|delete|unsend?)$/i
+handler.command = /^(del|delete|d)$/i
 handler.limit = false
 handler.admin = true
 module.exports = handler
