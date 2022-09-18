@@ -60,7 +60,7 @@ let jarot = `
 }
 
 handler.tags = ['main', 'info']
-handler.customPrefix = /^(help|.help)$/i
+handler.customPrefix = /^(menu3)$/i
 handler.help = ['.menu3']
 handler.command = new RegExp
 

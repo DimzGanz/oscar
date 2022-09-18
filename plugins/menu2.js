@@ -56,6 +56,7 @@ const defaultMenu = {
 ┆♠︎ *Premium* : Ⓟ
 ┆♠︎ *Uptime:* : %uptime (%muptime)
 ┆♠︎ *Run Bot* : heroku
+┆♠︎ *Donasi Lewat Link : https://teknosimple.com/PonselHarian
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╔═❖〔 %category 〕❖════╗\n┃',
