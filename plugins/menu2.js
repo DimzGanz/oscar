@@ -56,7 +56,7 @@ const defaultMenu = {
 ┆♠︎ *Premium* : Ⓟ
 ┆♠︎ *Uptime:* : %uptime (%muptime)
 ┆♠︎ *Run Bot* : heroku
-┆♠︎ *Donasi Lewat Link : https://teknosimple.com/PonselHarian
+┆♠︎ *IG Owner* : http://www.instagram.com/dimzex
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╔═❖〔 %category 〕❖════╗\n┃',
