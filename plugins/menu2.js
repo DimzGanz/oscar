@@ -215,7 +215,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu|allmenu|\?)$/i
+handler.command = /^(menu|allmenu|)$/i
 
 handler.exp = 3
 
