@@ -56,7 +56,7 @@ const defaultMenu = {
 ┆♠︎ *Premium* : Ⓟ
 ┆♠︎ *Uptime:* : %uptime (%muptime)
 ┆♠︎ *Run Bot* : heroku
-┆♠︎ *IG Owner* : http://www.instagram.com/dimzex
+┆♠︎ *IG Owner* : http://www.instagram.com/_dimas7701
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╔═❖〔 %category 〕❖════╗\n┃',
