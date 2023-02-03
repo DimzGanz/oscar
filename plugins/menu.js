@@ -56,7 +56,7 @@ const defaultMenu = {
 ┆⬡ *Premium* : Ⓟ
 ┆⬡ *Uptime:* : %uptime (%muptime)
 ┆⬡ *Run Bot* : Okteto/heroku
-┆⬡ *Ig Owner* : instagram.com/dimzex
+┆⬡ *Ig Owner* : http://www.instagram.com/_dimas7701
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
@@ -170,7 +170,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       ['Sewa Bot🌟', '/sewa'],
       ['Owner🌟', '/owner']
     ], m)*/
-    let url = `https://telegra.ph/file/054b6fe59958df5ad6b1f.jpg`.trim()
+    let url = `https://telegra.ph/file/c3bdb0bb7a7c03d45d517.jpg`.trim()
     let res = await fetch(url)
     let buffer = await res.buffer()
     let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
@@ -183,7 +183,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                               urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'http://www.instagram.com/dimzex'
+                                    url: 'http://www.instagram.com/_dimas7701'
                                 }
                                 
                             }, {
