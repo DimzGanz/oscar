@@ -7,7 +7,7 @@ let handler = async (m, { conn,isOwner, isROwner, text }) => {
     if(!pesan) throw 'teksnya?'
     m.reply(`Mengirim Broadcast Ke ${anu.length} Chat, Waktu Selesai ${anu.length * 0.5} detik`)
     for (let i of anu) {
-    conn.send3ButtonImg(i, 'https://telegra.ph/file/4189454f16526ee66e68d.jpg',pesan, wm, 'Menu', '.menu')
+    conn.send3ButtonImg(i, 'https://telegra.ph/file/c3bdb0bb7a7c03d45d517.jpg',pesan, wm, 'Menu', '.menu')
     }
   m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
